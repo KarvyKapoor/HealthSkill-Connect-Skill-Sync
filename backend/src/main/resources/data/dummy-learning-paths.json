@@ -1,0 +1,34 @@
+[
+  {
+    "id": "path-clinical-research",
+    "title": "Clinical Research Starter Pathway",
+    "specialization": "Clinical Research",
+    "durationWeeks": 4,
+    "description": "Build a foundation in research design and evidence appraisal.",
+    "courseIds": [
+      "course-research",
+      "course-literacy"
+    ],
+    "milestones": [
+      "Explain common study designs",
+      "Identify key ethical safeguards",
+      "Critically appraise an abstract"
+    ]
+  },
+  {
+    "id": "path-public-health",
+    "title": "Public Health Foundations",
+    "specialization": "Public Health",
+    "durationWeeks": 3,
+    "description": "Explore population health and prevention concepts.",
+    "courseIds": [
+      "course-public-health",
+      "course-safety"
+    ],
+    "milestones": [
+      "Describe determinants of health",
+      "Compare prevention levels",
+      "Summarize a public health issue"
+    ]
+  }
+]

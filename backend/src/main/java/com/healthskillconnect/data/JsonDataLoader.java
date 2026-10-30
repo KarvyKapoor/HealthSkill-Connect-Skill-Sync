@@ -1,0 +1,7 @@
+package com.healthskillconnect.data;
+import com.fasterxml.jackson.core.type.TypeReference;import com.fasterxml.jackson.databind.ObjectMapper;import com.healthskillconnect.model.AppUser;import org.springframework.core.io.ClassPathResource;import org.springframework.stereotype.Component;import java.io.*;import java.util.*;
+@Component public class JsonDataLoader {
+ private final ObjectMapper mapper; public final List<AppUser> users; public final List<Map<String,Object>> opportunities,resources,courses,learningPaths,mentors;
+ public JsonDataLoader(ObjectMapper mapper){this.mapper=mapper;users=load("data/dummy-users.json",new TypeReference<List<AppUser>>(){});for(AppUser u:users){if(u.passwordHash==null)u.passwordHash="";}opportunities=load("data/dummy-opportunities.json",new TypeReference<List<Map<String,Object>>>(){});resources=load("data/dummy-resources.json",new TypeReference<List<Map<String,Object>>>(){});courses=load("data/dummy-courses.json",new TypeReference<List<Map<String,Object>>>(){});learningPaths=load("data/dummy-learning-paths.json",new TypeReference<List<Map<String,Object>>>(){});mentors=load("data/dummy-mentors.json",new TypeReference<List<Map<String,Object>>>(){});}
+ private <T> T load(String file,TypeReference<T> type){try(InputStream in=new ClassPathResource(file).getInputStream()){return mapper.readValue(in,type);}catch(Exception e){throw new IllegalStateException("Unable to load required dummy data '"+file+"'. Check JSON syntax and required fields.",e);}}
+}

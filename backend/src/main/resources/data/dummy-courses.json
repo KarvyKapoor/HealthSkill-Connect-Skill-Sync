@@ -1,0 +1,58 @@
+[
+  {
+    "id": "course-research",
+    "title": "Foundations of Clinical Research",
+    "category": "Research",
+    "level": "Beginner",
+    "durationHours": 8,
+    "description": "Study research questions, study designs, ethics, and evidence appraisal.",
+    "modules": [
+      "Research questions",
+      "Study designs",
+      "Ethics and consent",
+      "Reading a paper"
+    ]
+  },
+  {
+    "id": "course-public-health",
+    "title": "Public Health Essentials",
+    "category": "Public Health",
+    "level": "Beginner",
+    "durationHours": 6,
+    "description": "Understand population health, prevention, and health systems.",
+    "modules": [
+      "Determinants of health",
+      "Prevention levels",
+      "Surveillance",
+      "Health communication"
+    ]
+  },
+  {
+    "id": "course-safety",
+    "title": "Patient Safety Fundamentals",
+    "category": "Clinical practice",
+    "level": "Beginner",
+    "durationHours": 5,
+    "description": "Learn safety culture, reporting, and quality improvement concepts.",
+    "modules": [
+      "Safety culture",
+      "Incident reporting",
+      "Human factors",
+      "Quality improvement"
+    ]
+  },
+  {
+    "id": "course-literacy",
+    "title": "Evidence-Based Healthcare Literacy",
+    "category": "Research",
+    "level": "Intermediate",
+    "durationHours": 7,
+    "description": "Practice literature search, critical appraisal, and evidence synthesis.",
+    "modules": [
+      "Search strategy",
+      "Bias and validity",
+      "Appraisal",
+      "Evidence summaries"
+    ]
+  }
+]

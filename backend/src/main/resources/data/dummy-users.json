@@ -1,0 +1,182 @@
+[
+  {
+    "id": "user-001",
+    "fullName": "Aarav Sharma",
+    "email": "aarav.student@example.com",
+    "role": "STUDENT",
+    "specialization": "BSc Nursing",
+    "experienceLevel": "Year 3",
+    "location": "Delhi",
+    "skills": [
+      "Patient care",
+      "Public health"
+    ],
+    "learningInterests": [
+      "Patient care",
+      "Public health"
+    ],
+    "avatarInitials": "AS",
+    "learningProgress": 42,
+    "password": "DemoPass123!"
+  },
+  {
+    "id": "user-002",
+    "fullName": "Meera Iyer",
+    "email": "meera.student@example.com",
+    "role": "STUDENT",
+    "specialization": "MBBS",
+    "experienceLevel": "Year 4",
+    "location": "Chennai",
+    "skills": [
+      "Clinical research",
+      "Cardiology"
+    ],
+    "learningInterests": [
+      "Clinical research",
+      "Cardiology"
+    ],
+    "avatarInitials": "MI",
+    "learningProgress": 68,
+    "password": "DemoPass123!"
+  },
+  {
+    "id": "user-003",
+    "fullName": "Kabir Khan",
+    "email": "kabir.student@example.com",
+    "role": "STUDENT",
+    "specialization": "BPT",
+    "experienceLevel": "Year 2",
+    "location": "Lucknow",
+    "skills": [
+      "Rehabilitation",
+      "Anatomy"
+    ],
+    "learningInterests": [
+      "Rehabilitation",
+      "Anatomy"
+    ],
+    "avatarInitials": "KK",
+    "learningProgress": 25,
+    "password": "DemoPass123!"
+  },
+  {
+    "id": "user-004",
+    "fullName": "Ananya Das",
+    "email": "ananya.student@example.com",
+    "role": "STUDENT",
+    "specialization": "BPharm",
+    "experienceLevel": "Year 3",
+    "location": "Kolkata",
+    "skills": [
+      "Pharmacology",
+      "Clinical trials"
+    ],
+    "learningInterests": [
+      "Pharmacology",
+      "Clinical trials"
+    ],
+    "avatarInitials": "AD",
+    "learningProgress": 51,
+    "password": "DemoPass123!"
+  },
+  {
+    "id": "user-005",
+    "fullName": "Rohan Patel",
+    "email": "rohan.student@example.com",
+    "role": "STUDENT",
+    "specialization": "BSc Medical Lab Technology",
+    "experienceLevel": "Year 2",
+    "location": "Ahmedabad",
+    "skills": [
+      "Diagnostics",
+      "Microbiology"
+    ],
+    "learningInterests": [
+      "Diagnostics",
+      "Microbiology"
+    ],
+    "avatarInitials": "RP",
+    "learningProgress": 33,
+    "password": "DemoPass123!"
+  },
+  {
+    "id": "user-006",
+    "fullName": "Dr. Nisha Rao",
+    "email": "nisha.mentor@example.com",
+    "role": "MENTOR",
+    "specialization": "Public Health",
+    "experienceLevel": "8 years",
+    "location": "Bengaluru",
+    "skills": [
+      "Epidemiology",
+      "Research methods"
+    ],
+    "learningInterests": [
+      "Epidemiology",
+      "Research methods"
+    ],
+    "avatarInitials": "NR",
+    "learningProgress": 0,
+    "password": "DemoPass123!"
+  },
+  {
+    "id": "user-007",
+    "fullName": "Dr. Arjun Menon",
+    "email": "arjun.mentor@example.com",
+    "role": "MENTOR",
+    "specialization": "Clinical Research",
+    "experienceLevel": "10 years",
+    "location": "Pune",
+    "skills": [
+      "Clinical trials",
+      "Evidence-based medicine"
+    ],
+    "learningInterests": [
+      "Clinical trials",
+      "Evidence-based medicine"
+    ],
+    "avatarInitials": "AM",
+    "learningProgress": 0,
+    "password": "DemoPass123!"
+  },
+  {
+    "id": "user-008",
+    "fullName": "Dr. Sana Ali",
+    "email": "sana.mentor@example.com",
+    "role": "MENTOR",
+    "specialization": "Nursing Education",
+    "experienceLevel": "6 years",
+    "location": "Hyderabad",
+    "skills": [
+      "Nursing",
+      "Patient safety"
+    ],
+    "learningInterests": [
+      "Nursing",
+      "Patient safety"
+    ],
+    "avatarInitials": "SA",
+    "learningProgress": 0,
+    "password": "DemoPass123!"
+  },
+  {
+    "id": "user-009",
+    "fullName": "Platform Admin",
+    "email": "admin@example.com",
+    "role": "ADMIN",
+    "specialization": "Platform Operations",
+    "experienceLevel": "5 years",
+    "location": "Remote",
+    "skills": [
+      "Content quality",
+      "Safety"
+    ],
+    "learningInterests": [
+      "Content quality",
+      "Safety"
+    ],
+    "avatarInitials": "PA",
+    "learningProgress": 0,
+    "password": "DemoPass123!"
+  }
+]

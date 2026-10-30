@@ -1,0 +1,13 @@
+node_modules/
+frontend/dist/
+ai/.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.env.*
+!.env.example
+backend/target/
+*.log
+.DS_Store
+Thumbs.db

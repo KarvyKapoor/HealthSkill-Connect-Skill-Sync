@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: healthskillconnect-backend
+  jackson:
+    default-property-inclusion: non_null
+app:
+  jwt-secret: ${JWT_SECRET:local-development-secret-change-this-32-bytes-minimum}
+  jwt-expiration-minutes: 60
+  ai-base-url: ${AI_SERVICE_URL:http://localhost:8000}
+  frontend-origin: ${FRONTEND_ORIGIN:http://localhost:5173}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "res-who-topics",
+    "title": "WHO Health Topics",
+    "category": "Official health information",
+    "description": "Explore public health topics and evidence-based information from WHO.",
+    "url": "https://www.who.int/health-topics",
+    "source": "World Health Organization"
+  },
+  {
+    "id": "res-pubmed",
+    "title": "PubMed",
+    "category": "Research database",
+    "description": "Search biomedical and life sciences literature.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "source": "National Library of Medicine"
+  },
+  {
+    "id": "res-aiims",
+    "title": "AIIMS",
+    "category": "Institutional learning",
+    "description": "Official institutional announcements and information.",
+    "url": "https://www.aiims.edu/",
+    "source": "All India Institute of Medical Sciences"
+  },
+  {
+    "id": "res-icmr",
+    "title": "ICMR",
+    "category": "Research guidance",
+    "description": "Official research, policy, and programme information.",
+    "url": "https://www.icmr.gov.in/",
+    "source": "Indian Council of Medical Research"
+  },
+  {
+    "id": "res-nmc",
+    "title": "National Medical Commission",
+    "category": "Regulatory information",
+    "description": "Official medical education regulations and notices.",
+    "url": "https://www.nmc.org.in/",
+    "source": "National Medical Commission"
+  }
+]

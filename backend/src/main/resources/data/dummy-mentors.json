@@ -1,0 +1,57 @@
+[
+  {
+    "id": "mentor-1",
+    "userId": "user-006",
+    "name": "Dr. Nisha Rao",
+    "specialization": "Public Health",
+    "mentees": [
+      "user-001",
+      "user-005"
+    ],
+    "pendingReviews": 2,
+    "sessions": [
+      {
+        "title": "Research question review",
+        "date": "2026-11-02T16:00:00+05:30"
+      },
+      {
+        "title": "Learning plan check-in",
+        "date": "2026-11-05T17:30:00+05:30"
+      }
+    ]
+  },
+  {
+    "id": "mentor-2",
+    "userId": "user-007",
+    "name": "Dr. Arjun Menon",
+    "specialization": "Clinical Research",
+    "mentees": [
+      "user-002",
+      "user-004"
+    ],
+    "pendingReviews": 1,
+    "sessions": [
+      {
+        "title": "Evidence appraisal mentoring",
+        "date": "2026-11-03T15:00:00+05:30"
+      }
+    ]
+  },
+  {
+    "id": "mentor-3",
+    "userId": "user-008",
+    "name": "Dr. Sana Ali",
+    "specialization": "Nursing Education",
+    "mentees": [
+      "user-001",
+      "user-003"
+    ],
+    "pendingReviews": 3,
+    "sessions": [
+      {
+        "title": "Patient safety discussion",
+        "date": "2026-11-04T18:00:00+05:30"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "opp-who-internship",
+    "title": "WHO Internship Programme",
+    "organization": "World Health Organization",
+    "type": "INTERNSHIP",
+    "eligibilitySummary": "Eligibility, openings, and application periods vary by posting. Review the official programme page.",
+    "officialUrl": "https://www.who.int/careers/internship-programme",
+    "location": "Global",
+    "deadline": null,
+    "statusNote": "Official programme page; not confirmation of a currently open vacancy."
+  },
+  {
+    "id": "opp-aiims",
+    "title": "AIIMS education and training opportunities",
+    "organization": "All India Institute of Medical Sciences",
+    "type": "EDUCATION",
+    "eligibilitySummary": "Check the official institution website for current notices, courses, and eligibility.",
+    "officialUrl": "https://www.aiims.edu/",
+    "location": "India",
+    "deadline": null,
+    "statusNote": "Official institutional website; current opportunities must be verified."
+  },
+  {
+    "id": "opp-icmr",
+    "title": "ICMR research and training information",
+    "organization": "Indian Council of Medical Research",
+    "type": "RESEARCH",
+    "eligibilitySummary": "Review current official announcements for programme-specific eligibility.",
+    "officialUrl": "https://www.icmr.gov.in/",
+    "location": "India",
+    "deadline": null,
+    "statusNote": "Official source; no vacancy or deadline is implied."
+  },
+  {
+    "id": "opp-nmc",
+    "title": "Medical education regulations and notices",
+    "organization": "National Medical Commission",
+    "type": "EDUCATION",
+    "eligibilitySummary": "Use official notices for current rules and announcements.",
+    "officialUrl": "https://www.nmc.org.in/",
+    "location": "India",
+    "deadline": null,
+    "statusNote": "Official source; not a job listing."
+  }
+]
