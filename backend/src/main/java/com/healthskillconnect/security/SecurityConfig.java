@@ -74,7 +74,9 @@ public class SecurityConfig {
                     "/api/courses/**",
                     "/api/paths/**",
                     "/api/opportunities/**",
-                    "/api/resources/**"
+                    "/api/resources/**",
+                    "/api/skills/**",
+                    "/api/careers/**"
                 ).permitAll()
 
                 .requestMatchers("/api/admin/**").hasRole("ADMIN")

@@ -5,8 +5,22 @@ spring:
     name: healthskillconnect-backend
   jackson:
     default-property-inclusion: non_null
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/healthskill_connect?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true}
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWORD:065575Karvy065575}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+        dialect: org.hibernate.dialect.MySQLDialect
 app:
   jwt-secret: ${JWT_SECRET:local-development-secret-change-this-32-bytes-minimum}
-  jwt-expiration-minutes: 60
+  jwt-expiration-minutes: 1440
   ai-base-url: ${AI_SERVICE_URL:http://localhost:8000}
   frontend-origin: ${FRONTEND_ORIGIN:http://localhost:5173}
+
